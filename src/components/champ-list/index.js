@@ -23,9 +23,7 @@ export function App() {
       href={`https://br.leagueoflegends.com/pt-br/champions/${n.toLowerCase()}`}
     >
       <img
-        src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${
-          n.charAt(0).toUpperCase() + n.substr(1)
-        }_0.jpg`}
+        src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${n}_0.jpg`}
         alt="champions"
         key={index}
       ></img>
