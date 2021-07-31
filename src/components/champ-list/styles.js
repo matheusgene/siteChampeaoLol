@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const Select = styled.select`
+  background-color: #eee;
+`;
+
 export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
